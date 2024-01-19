@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
     char grade;
     printf("enter your grade :");
-    scanf("%c\n", &grade);
+    scanf("%c", &grade);
     switch(grade){
     case 'A':
         printf("you did great");
@@ -26,4 +27,5 @@ int main(){
         printf("shi shi grade daal gawar");
     }
     return 0;
-}
+getch();
+};

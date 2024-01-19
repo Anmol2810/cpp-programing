@@ -6,4 +6,6 @@ int main(){
     cout << "enter two numbers" << endl;
     cin >> a >> b;
     cout << "the sum of the two numbers is: "<< a+b << endl;
+    return 0;
 }
+/*ctrl+shift+b*/
